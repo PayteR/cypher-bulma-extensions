@@ -1,0 +1,37 @@
+/** Initial Variables **/
+
+/** Extended Bulma Initial Variables **/
+
+// Typography
+
+// added font-family for titles
+$family-serif:      Georgia, "Times New Roman", Times, serif !default;
+
+// Spacer variables as extended to the gap
+$spacer: 1rem !default;
+$spacer-x: $spacer !default;
+$spacer-y: $spacer !default;
+
+// link should have transitions by default
+$link-transition: background .3s, color .3s, opacity .3s !default;
+
+// multipliers for spacers
+$size-multiplier-0: 0 !default;
+$size-multiplier-1: .25 !default;
+$size-multiplier-2: .5 !default;
+$size-multiplier-3: 1 !default;
+$size-multiplier-4: 1.5 !default;
+$size-multiplier-5: 3 !default;
+$size-multiplier-6: 6 !default;
+
+$size-multipliers: $size-multiplier-0 $size-multiplier-1 $size-multiplier-2 $size-multiplier-3
+                   $size-multiplier-4 $size-multiplier-5 $size-multiplier-6 !default;
+
+// Navbar logo height
+$navbar-logo-height: 36px !default;
+
+// Responsiveness
+
+// New extra size to better target mobile breakpoints
+$small: 576px !default;
+

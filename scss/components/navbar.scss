@@ -1,0 +1,14 @@
+
+
+$navbar-logo-height: 36px !default;
+
+.navbar-brand {
+  .navbar-item:hover {
+    opacity: 0.5;
+  }
+}
+
+.navbar-logo {
+  height: $navbar-logo-height;
+  display: block;
+}

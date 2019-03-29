@@ -1,0 +1,27 @@
+
+.container {
+  &.is-touch-padding {
+    @include touch {
+      padding-left: $gap / 2;
+      padding-right: $gap / 2;
+    }
+  }
+  &.is-tablet-only-padding {
+    @include tablet-only {
+      padding-left: $gap / 2;
+      padding-right: $gap / 2;
+    }
+  }
+  &.is-mobile-only-padding {
+    @include mobile {
+      padding-left: $gap / 2;
+      padding-right: $gap / 2;
+    }
+  }
+  //&.is-padding {
+  //  @include mobile {
+  //    padding-left: $gap / 2;
+  //    padding-right: $gap / 2;
+  //  }
+  //}
+}
