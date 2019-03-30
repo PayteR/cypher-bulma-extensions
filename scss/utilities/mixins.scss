@@ -1,0 +1,19 @@
+
+
+@mixin mobile {
+  @media screen and (max-width: $small - 1px) {
+    @content;
+  }
+}
+
+@mixin small {
+  @media screen and (max-width: $tablet - 1px) {
+    @content;
+  }
+}
+
+@mixin small-only {
+  @media screen and (min-width: $small) and (max-width: $tablet - 1px) {
+    @content;
+  }
+}
