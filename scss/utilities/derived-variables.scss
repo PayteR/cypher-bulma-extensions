@@ -4,25 +4,43 @@
  */
 
 $primary: $turquoise !default;
-$secondary: $purple !default; // ADDED IN CYPHER THEME
-
-/**
-  Extended colors
- */
 $primary-light: lighten($primary, 5%) !default;
 $primary-lighter: lighten($primary, 12%) !default;
 $primary-dark: darken($primary, 5%) !default;
 $primary-darker: darken($primary, 12%) !default;
 
+$secondary: $purple !default; // ADDED IN CYPHER THEME
 $secondary-light: lighten($secondary, 5%) !default;
 $secondary-lighter: lighten($secondary, 12%) !default;
 $secondary-dark: darken($secondary, 5%) !default;
 $secondary-darker: darken($secondary, 12%) !default;
 
+/**
+  Extended colors
+ */
 $info: $cyan !default;
-$success: $green !default;
+$info-light: lighten($info, 5%) !default;
+$info-lighter: lighten($info, 12%) !default;
+$info-dark: darken($info, 5%) !default;
+$info-darker: darken($info, 12%) !default;
+
+$green: $green !default;
+$green-light: lighten($green, 5%) !default;
+$green-lighter: lighten($green, 12%) !default;
+$green-dark: darken($green, 5%) !default;
+$green-darker: darken($green, 12%) !default;
+
 $warning: $yellow !default;
+$warning-light: lighten($warning, 5%) !default;
+$warning-lighter: lighten($warning, 12%) !default;
+$warning-dark: darken($warning, 5%) !default;
+$warning-darker: darken($warning, 12%) !default;
+
 $danger: $red !default;
+$danger-light: lighten($danger, 5%) !default;
+$danger-lighter: lighten($danger, 12%) !default;
+$danger-dark: darken($danger, 5%) !default;
+$danger-darker: darken($danger, 12%) !default;
 
 $light: $white-ter !default;
 $dark: $grey-darker !default;
@@ -71,7 +89,7 @@ $pre-background: $background !default;
 
 // Link colors
 
-$link: $blue !default;
+$link: $primary !default;
 $link-invert: $blue-invert !default;
 $link-visited: $purple !default;
 

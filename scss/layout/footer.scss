@@ -1,1 +1,19 @@
 
+$footer-color: $body-color !default;
+$footer-font-size: 1rem !default;
+
+.footer {
+  color: $footer-color;
+  font-size: $footer-font-size;
+
+  .menu {
+    list-style: none;
+    display: inline-block;
+  }
+
+  .menu-item {
+    margin-left: $spacer-x / 2;
+    display: inline-block;
+  }
+}
+
