@@ -1,10 +1,9 @@
-
-
 $navbar-logo-height: 36px !default;
+$navbar-logo-hover-opacity: 0.5 !default;
 
 .navbar-brand {
   .navbar-item:hover {
-    opacity: 0.5;
+    opacity: $navbar-logo-hover-opacity;
   }
 }
 
