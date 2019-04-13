@@ -1,4 +1,10 @@
 
+// because default transitions for anchors are sooo niceeee
 a {
   transition: $link-transition;
+}
+
+// it will fix this issue https://github.com/jgthms/bulma/issues/821
+strong {
+  color: currentColor;
 }
