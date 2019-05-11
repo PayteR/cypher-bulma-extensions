@@ -1,0 +1,14 @@
+
+$column-counts-sizes: 2 3 4 5 !default;
+
+.has-column-count {
+  > li {
+    break-inside: avoid;
+  }
+}
+
+@for $i from 1 through length($column-counts-sizes) {
+  .has-column-count-#{nth($column-counts-sizes, $i)} {
+    column-count: nth($column-counts-sizes, $i);
+  }
+}
