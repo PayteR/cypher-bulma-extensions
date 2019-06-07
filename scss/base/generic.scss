@@ -4,6 +4,20 @@ a {
   transition: $link-transition;
 }
 
+.link {
+  color: $link;
+  cursor: pointer;
+  text-decoration: none;
+
+  strong {
+    color: currentColor;
+  }
+
+  &:hover {
+    color: $link-hover;
+  }
+}
+
 // it will fix this issue https://github.com/jgthms/bulma/issues/821
 strong {
   color: currentColor;
