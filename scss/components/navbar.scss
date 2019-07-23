@@ -8,8 +8,15 @@ $navbar-logo-max-height: none !default;
   }
 }
 
+
+
+
 .navbar-logo {
   height: $navbar-logo-height;
+
+  // Because there is this css that will shrink logo in navbar-item
+  // .navbar-item img { max-height: 1.75rem; }
   max-height: $navbar-logo-max-height !important;
+
   display: block;
 }
