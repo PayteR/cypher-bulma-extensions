@@ -1,5 +1,6 @@
 $navbar-logo-height: 36px !default;
 $navbar-logo-hover-opacity: 0.5 !default;
+$navbar-logo-max-height: none !default;
 
 .navbar-brand {
   .navbar-item:hover {
@@ -9,5 +10,6 @@ $navbar-logo-hover-opacity: 0.5 !default;
 
 .navbar-logo {
   height: $navbar-logo-height;
+  max-height: $navbar-logo-max-height;
   display: block;
 }
